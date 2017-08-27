@@ -14,7 +14,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="MinStack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/xurongkun/lintcode/problem12/MinStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="740">
+              <caret line="37" column="23" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="37" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/xurongkun/lintcode/problem93/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cn/xurongkun/lintcode/problem93/SolutionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="23" column="52" lean-forward="false" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,6 +89,9 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/xurongkun/lintcode/problem12/MinStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/xurongkun/lintcode/problem413/Solution.java" />
         <option value="$PROJECT_DIR$/src/test/java/cn/xurongkun/lintcode/problem413/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/xurongkun/lintcode/base/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/xurongkun/lintcode/problem93/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/xurongkun/lintcode/problem93/Solution.java" />
       </list>
     </option>
   </component>
@@ -67,11 +101,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="601" />
-    <option name="y" value="146" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="508" />
+    <option name="y" value="8" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -89,6 +126,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -121,7 +159,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="problem12" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lintcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lintcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="problem93" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lintcode" type="b2602c69:ProjectViewProjectNode" />
@@ -135,7 +181,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -151,11 +196,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.xurongkun.lintcode.problem93" />
       <recent name="cn.xurongkun.lintcode.problem413" />
       <recent name="cn.xurongkun.lintcode.problem384" />
       <recent name="cn.xurongkun.lintcode.problem65" />
       <recent name="cn.xurongkun.lintcode.problem53" />
-      <recent name="cn.xurongkun.lintcode.problem167" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -173,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.reverseInteger">
+  <component name="RunManager" selected="JUnit.SolutionTest.maxDepth">
     <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lintcode" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -231,13 +276,13 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="SolutionTest.reverseInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.maxDepth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lintcode" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.xurongkun.lintcode.problem413" />
-      <option name="MAIN_CLASS_NAME" value="cn.xurongkun.lintcode.problem413.SolutionTest" />
-      <option name="METHOD_NAME" value="reverseInteger" />
+      <option name="PACKAGE_NAME" value="cn.xurongkun.lintcode.problem93" />
+      <option name="MAIN_CLASS_NAME" value="cn.xurongkun.lintcode.problem93.SolutionTest" />
+      <option name="METHOD_NAME" value="maxDepth" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -250,13 +295,13 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="SolutionTest.reverseWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.reverseInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lintcode" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.xurongkun.lintcode.problem53" />
-      <option name="MAIN_CLASS_NAME" value="cn.xurongkun.lintcode.problem53.SolutionTest" />
-      <option name="METHOD_NAME" value="reverseWords" />
+      <option name="PACKAGE_NAME" value="cn.xurongkun.lintcode.problem413" />
+      <option name="MAIN_CLASS_NAME" value="cn.xurongkun.lintcode.problem413.SolutionTest" />
+      <option name="METHOD_NAME" value="reverseInteger" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -328,19 +373,19 @@
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.SolutionTest.reverseWords" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SolutionTest.findMedianSortedArrays" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SolutionTest.lengthOfLongestSubstring" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SolutionTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SolutionTest.reverseInteger" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SolutionTest.findMedianSortedArrays" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SolutionTest.lengthOfLongestSubstring" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SolutionTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SolutionTest.reverseInteger" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SolutionTest.maxDepth" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SolutionTest.reverseInteger" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SolutionTest.lengthOfLongestSubstring" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SolutionTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SolutionTest.findMedianSortedArrays" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SolutionTest.reverseWords" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SolutionTest.maxDepth" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SolutionTest.reverseInteger" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SolutionTest.lengthOfLongestSubstring" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SolutionTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SolutionTest.findMedianSortedArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -372,6 +417,7 @@
       <workItem from="1503225741536" duration="1228000" />
       <workItem from="1503408985919" duration="206000" />
       <workItem from="1503409220571" duration="608000" />
+      <workItem from="1503830937305" duration="1600000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1502284409714</created>
@@ -384,12 +430,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest_lengthOfLongestSubstring - 2017.08.16 at 22h 34m 51s.xml">
-      <configuration name="SolutionTest.lengthOfLongestSubstring" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest_lengthOfLongestSubstring - 2017.08.16 at 22h 34m 59s.xml">
-      <configuration name="SolutionTest.lengthOfLongestSubstring" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SolutionTest_lengthOfLongestSubstring - 2017.08.16 at 22h 35m 07s.xml">
       <configuration name="SolutionTest.lengthOfLongestSubstring" configurationId="JUnit" />
     </history-entry>
@@ -411,29 +451,37 @@
     <history-entry file="SolutionTest_lengthOfLongestSubstring - 2017.08.19 at 15h 26m 29s.xml">
       <configuration name="SolutionTest.lengthOfLongestSubstring" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SolutionTest_maxDepth - 2017.08.27 at 18h 55m 26s.xml">
+      <configuration name="SolutionTest.maxDepth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest_maxDepth - 2017.08.27 at 18h 55m 39s.xml">
+      <configuration name="SolutionTest.maxDepth" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="SolutionTest_reverseInteger - 2017.08.20 at 18h 40m 08s.xml">
       <configuration name="SolutionTest.reverseInteger" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27429000" />
+    <option name="totallyTimeSpent" value="29029000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="508" y="8" width="1400" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11677282" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19413093" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3468208" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -445,7 +493,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -776,14 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xurongkun/lintcode/problem12/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" column="56" lean-forward="false" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cn/xurongkun/lintcode/problem384/SolutionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -802,6 +841,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xurongkun/lintcode/problem12/MinStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="37" column="23" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="37" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xurongkun/lintcode/base/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/xurongkun/lintcode/problem93/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="23" column="52" lean-forward="false" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xurongkun/lintcode/problem93/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
           <folding />
         </state>
       </provider>
