@@ -3,8 +3,6 @@ package cn.xurongkun.lintcode.problem167;
 import cn.xurongkun.lintcode.base.ListNode;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class SolutionTest {
     Solution solution = new Solution();
     @Test

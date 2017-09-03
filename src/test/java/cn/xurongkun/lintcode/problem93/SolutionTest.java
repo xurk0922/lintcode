@@ -1,9 +1,8 @@
 package cn.xurongkun.lintcode.problem93;
 
-import cn.xurongkun.lintcode.base.TreeNode;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import cn.xurongkun.lintcode.base.TreeNode;
 
 public class SolutionTest {
     Solution solution = new Solution();

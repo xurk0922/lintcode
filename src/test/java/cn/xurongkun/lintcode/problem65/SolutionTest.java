@@ -2,8 +2,6 @@ package cn.xurongkun.lintcode.problem65;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class SolutionTest {
     Solution solution = new Solution();
     @Test

@@ -1,6 +1,5 @@
 package cn.xurongkun.lintcode.problem65;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 /**
